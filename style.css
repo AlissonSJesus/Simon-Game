@@ -1,0 +1,65 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/*Estilo Geral*/
+body{
+    background-color: rgb(27, 27, 53);
+}
+
+/*Cabeçalho*/
+
+header h1{
+    text-align: center;
+    padding: 40px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 35pt;
+    color: rgb(248, 248, 194);
+}
+
+/*Botões*/
+
+.esquerda{
+    text-align: right;
+    padding: 25px;
+}
+.direita{
+    text-align: left;
+    padding: 25px;
+}
+.btn{
+    width: 220px;
+    height: 220px;
+    border: 10px solid black;
+    margin-bottom: 50px;
+    border-radius: 40px;
+}
+.verde{
+    background-color: green;
+}
+.amarelo{
+    background-color: yellow;
+}
+.vermelho{
+    background-color: red;
+}
+.azul{
+    background-color: blue;
+}
+
+.pressionado {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+@media (max-width: 991px){
+    .esquerda{
+        text-align: center;
+    }
+    .direita{
+        text-align: center;
+    }
+}
